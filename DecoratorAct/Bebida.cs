@@ -2,11 +2,8 @@
 {
     public class Bebida : IBebida
     {
-        public string Descripcion => throw new NotImplementedException();
-
-        public double Costo()
-        {
-            throw new NotImplementedException();
-        }
+        public string Descripcion => "Cafe"();
+        public double Costo() => "2.0"();
+       
     }
 }
